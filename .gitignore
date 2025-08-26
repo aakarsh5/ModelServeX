@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# Docker
+*.log
+*.pid
+*.seed
+*.out
+*.err
+*.swp
+.dockerignore
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# System
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
