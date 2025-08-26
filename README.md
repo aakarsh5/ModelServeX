@@ -41,11 +41,11 @@ python -m venv venv
 source venv/bin/activate   # On Mac/Linux
 venv\Scripts\activate      # On Windows
 ```
-4. Install Dependencies
+3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-6. Run the Application
+4. Run the Application
 ```bash
 uvicorn app:app --host 0.0.0.0 --port 8000
 The server will start at: 👉 http://127.0.0.1:8000 Swagger UI available at: 👉 http://127.0.0.1:8000/docs
